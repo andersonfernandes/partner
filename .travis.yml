@@ -20,6 +20,7 @@ jobs:
         - RUBYOPT='-W:no-deprecated -W:no-experimental'
       script:
         - bundle exec rubocop
+        - bundle exec brakeman
         - export RAILS_ENV=test
         - bundle exec rake db:create db:migrate
         - bundle exec rspec

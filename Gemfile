@@ -5,6 +5,7 @@ ruby "2.7.1"
 
 gem "bootsnap", ">= 1.1.0", require: false
 gem "bootstrap", "~> 4.5.2"
+gem 'brakeman', '~> 4.10'
 gem "bugsnag"
 gem "devise"
 gem "devise_invitable"
